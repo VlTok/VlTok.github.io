@@ -139,6 +139,64 @@ form legend{
 	margin: 0 auto;
 	margin-bottom: 4em;
 }
+.dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+}
+.slidewrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    margin: 0;
+    padding: 0;    
+}
 table th{
 	color:#F97300 !important; 
+}
+.viewport{
+    width: 510px;
+    height: 255px;
+    overflow: hidden;
+    position: relative;
+}
+.slide{
+    width: 510px;
+    height: 255px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+.dot.active{
+    background: #999;   
+}
+.dot.kill{
+    display: none;
+}
+.arrows{
+	font-size: 40px;
+	text-decoration: none !important;
+	color: #F97300 !important;
+}
+@media screen and (min-width: 1000px) {
+  .viewport{
+    width: 1020px;
+    height: 255px;
+    overflow: hidden;
+    position: relative;
+}
+.slide{
+    width: 510px;
+    height: 255px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
 }
