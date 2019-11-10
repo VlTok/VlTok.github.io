@@ -8,9 +8,14 @@
 		<meta name="description" content="Официальный сайт BitRight предлагает купить криптовалюту BitRight напрямую со скидкой.">
 		<meta name="keywords" content="Купить BitRight, купить криптовалюту BitRight, BitRight, компания BitRight,BitRight токен, купить токены BitRight">
 		<meta name="Robots" content="index, follow">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link rel="stylesheet" type="text/css" href="style-2.css">
+
+		<script src="JQueryCarousel-2.js"></script>
 	</head>
 	<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
 		<nav class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
@@ -39,6 +44,96 @@
 		    			<button class="bgformy btn btn-outline-light my-2 my-sm-0" type="submit">Поиск</button>
   			</div>
 		</nav>
+		<div class="d-flex flex-column align-items-center h-80 w-80 mx-auto mt-5">
+		<div class="d-flex">
+			<div class="h-25 mx-2 my-auto">
+				<div class="prev"><a href="javascript: void(0)" id="last_slide" class="arrows"> ❮ </a></div>
+			</div>
+			<div class="viewport">
+				<ul class="slidewrapper" data-current="0">
+					<li class="slide">
+						<div>
+							<div class="d-flex">
+							 <img src="images/images(1).jpg" alt="img">
+							 <img src="images/images(2).jpg" alt="img">
+							</div>
+						</div>
+					</li>
+					<li class="slide">
+						<div>
+							<div class="d-flex">
+								<img src="images/images(3).jpg" alt="img">
+								<img src="images/images(4).jpg" alt="img">
+							</div>
+						</div>
+					</li>
+					<li class="slide">
+						<div>
+							<div class="d-flex">
+								<img src="images/the-amazigh-logo-psd-444871-255x255.png" alt="img">
+								<img src="images/IP-Blog-1-1-255x255.jpg" alt="img">
+							</div>
+						</div>
+					</li>
+					<li class="slide">
+						<div>
+							<div class="d-flex">
+								<img src="images/shkola_logo1-255x255.jpg" alt="img">
+								<img src="images/pinterest.jpg" alt="img">
+							</div>
+						</div>
+					</li>
+					<li class="slide">
+						<div>
+							<div class="d-flex">
+								<img src="images/apple.png" alt="img">
+								<img src="images/images.png" alt="img">
+							</div>
+						</div>
+					</li>
+					<li class="slide">
+						<div>
+							<div class="d-flex">
+								<img src="images/images(2).jpg" alt="img">
+								<img src="images/the-amazigh-logo-psd-444871-255x255.png" alt="img">
+							</div>
+						</div>
+					</li>
+					<li class="slide">
+						<div>
+							<div class="d-flex">
+								<img src="images/images(3).jpg" alt="img">
+								<img src="images/images(4).jpg" alt="img">
+							</div>
+						</div>
+					</li>
+					<li class="slide">
+						<div>
+							<div class="d-flex">
+								<img src="images/shkola_logo1-255x255.jpg" alt="img">
+								<img src="images/pinterest.jpg" alt="img">
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="h-25 mx-2 my-auto">
+				<div>
+					<div class="next"><a href="javascript: void(0)" id="next_slide" class="arrows"> ❯ </a></div>
+				</div>
+			</div>
+		</div>
+		<div class='toggles  text-center'>
+   			 <a href='#' onclick="fn()" class='dot active'></a>
+   			 <a href='#' onclick="fn()" class='dot'></a>
+   			 <a href='#' onclick="fn()" class='dot'></a>    
+   			 <a href='#' onclick="fn()" class='dot'></a>
+   			 <a href='#' onclick="fn()" class='dot kill'></a>
+   			 <a href='#' onclick="fn()" class='dot kill'></a>
+   			 <a href='#' onclick="fn()" class='dot kill'></a>
+   			 <a href='#' onclick="fn()" class='dot kill'></a> 
+		</div>
+	</div>
 		<main>
 			<div class="shop">
 				<h1 class="text-center">Магазин</h1>
@@ -169,7 +264,7 @@
 			<div class="container-fluid text-center text-md-left">
 		    	<div class="row">
 		    		<div class="col-md-6 mt-md-0 mt-3" itemscope="" itemtype="http://schema.org/Organization">
-						<span itemprop="name"><h5>BitRight</h5></span>
+						<span itemprop="name">BitRight</span>
 						Контакты:
 						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 							Адрес:
